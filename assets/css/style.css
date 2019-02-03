@@ -1,0 +1,77 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  line-height: 150%;
+  color: #777777;
+  background-color: #777777;
+}
+
+.headerbox {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  width: 960px;
+  margin-left: 10%;
+  margin-right: 30%;
+  border-bottom: 20px solid #777777;
+  background: #ffffff;
+  float: left;
+}
+
+.name {
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  background: #4aaaa5;
+  padding: 20px;
+  width: 20%;
+  float: left;
+}
+
+.nav-1 {
+  font-size: 20px;
+  color: #777777;
+  background: #ffffff;
+  padding: 20px;
+  width: 10%;
+  float: right;
+}
+
+.nav-2 {
+  font-size: 20px;
+  color: #777777;
+  background: #ffffff;
+  padding: 20px;
+  width: 10%;
+  float: right;
+}
+
+.nav-3 {
+  font-size: 20px;
+  color: #777777;
+  background: #ffffff;
+  padding: 20px;
+  width: 10%;
+  float: right;
+}
+.container {
+  width: 960px;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 10px;
+  background: #ffffff;
+  float: left;
+}
+
+h2 {
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    font-weight: bold;
+    border-bottom: 1px solid #777777;
+}
+
+#bio-image {
+  padding: 10px;
+  float: left;
+}
+
+
