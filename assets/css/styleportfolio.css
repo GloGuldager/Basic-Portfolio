@@ -68,6 +68,7 @@ header {
   float: right;
 }
 .container {
+  position:relative;
   width: 960px;
   margin-left: 6.25%;
   margin-right: 6.25%;
@@ -120,77 +121,79 @@ h2 {
   margin: 20px;
   margin-left: 0px;
 }
+
 .port {
-  width: 200px;
-  height: 150px;
-  background-image: url("../images/portplacement.jpg");
-  border: 1px solid #666666;
-  margin: 20px;
-  margin-left: 0px;
-  float: left;
-}
+    width: 200px;
+    height: 150px;
+    background-image: url("../images/portplacement.jpg");
+    border: 1px solid #666666;
+    margin: 20px;
+    margin-left: 0px;
+    float: left;
+  }
+  
+  .banner {
+    position: relative;
+    width: 202px;
+    height: 40px;
+    background-color: #4aaaa5;
+    margin-top: 100px;
+  }
 
-.banner {
-  position: relative;
-  width: 202px;
-  height: 40px;
-  background-color: #4aaaa5;
-  margin-top: 100px;
-}
+  .port1 {
+    position: absolute;
+  }
+  .ban1 {
+    text-align: center;
+  }
 
-.port1 {
-  position: absolute;
-}
-.ban1 {
-  text-align: center;
-}
+  .port2 {
+    position: relative;
+    margin-left: 225px;
+    margin-top: -120px;
+    float: left;
+  }
+  .ban2 {
+    margin-left: 225px;
+    margin-top: -40px;
+    text-align: center;
+  }
+  .port3 {
+    position: relative;
+    margin-left: 450px;
+    margin-top: -172px;
+    float: left;
+  }
+  .ban3 {
+    margin-left: 450px;
+    margin-top: -40px;
+    text-align: center;
+  }
 
-.port2 {
-  position: relative;
-  margin-left: 225px;
-  margin-top: -120px;
-  float: left;
-}
-.ban2 {
-  margin-left: 225px;
-  margin-top: -40px;
-  text-align: center;
-}
-.port3 {
-  position: relative;
-  margin-left: 450px;
-  margin-top: -172px;
-  float: left;
-}
-.ban3 {
-  margin-left: 450px;
-  margin-top: -40px;
-  text-align: center;
-}
+  .port4 {
+    position: absolute;
+    margin-left: 0px;
+    margin-top: 60px;
+    float: left;
+  }
+  .ban4 {
+    margin-left: 0px;
+    margin-top: 130px;
+    text-align: center;
+  }
 
-.port4 {
-  position: absolute;
-  margin-left: 0px;
-  margin-top: 60px;
-  float: left;
-}
-.ban4 {
-  margin-left: 0px;
-  margin-top: 130px;
-  text-align: center;
-}
+  .port5 {
+    position: relative;
+    margin-left: 225px;
+    margin-top: -110px;
+    float: left;
+  }
+  .ban5 {
+    margin-left: 225px;
+    margin-top: -40px;
+    text-align: center;
+  }
 
-.port5 {
-  position: relative;
-  margin-left: 225px;
-  margin-top: -110px;
-  float: left;
-}
-.ban5 {
-  margin-left: 225px;
-  margin-top: -40px;
-  text-align: center;
-}
 
 footer {
   position: fixed;
